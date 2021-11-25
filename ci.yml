@@ -1,0 +1,13 @@
+Language: go
+Build:
+  profile: prod
+Profiles:
+- profile:
+  name: prod
+  env: 
+  version: 
+  command: sh -x build.sh
+  upload_to_irep: true
+Output: output/*
+
+
